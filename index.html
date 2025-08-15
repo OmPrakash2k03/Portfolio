@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Personal Portfolio using html css & javascript</title>
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- boxicons -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- header -->
+     <header class="active">
+        <a href="#" class="logo">Om Prakash</a>
+
+        <i class='bx  bx-menu' id="menu-icon"></i> 
+
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">Projects</a>
+        </nav>
+     </header>
+
+     <!-- bar background -->
+      <div class="bars-box active">
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+      </div>
+
+     <!-- home section -->
+      <section class="home active">
+        <div class="home-detail">
+            <h1>Om Prakash Mahato</h1>
+            <h2>I'm a coder</h2>
+            <p>I’m a passionate coder who loves turning ideas into reality through clean, efficient code. I enjoy building websites and always learning and improving along the way.</p>
+            <div class="btn-sci">
+                <a href="#" class="btn">Download CV</a>
+                <div class="sci">
+                    <a href="#"><i class='bx  bxl-github'></i></a>
+                    <a href="#"><i class='bx  bxl-linkedin'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="Images/image.jpg">
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Project Section -->
+      <section class="project">
+        <h2 class="heading">My <span>Project</span></h2>
+        <div class="project-container">
+            <div class="project-box">
+                <div class="project-detail active">
+                    <p class="numb">01</p>
+                    <h3>Fronted Project</h3>
+                    <p>A simple and responsive Login & Register interface built using HTML, CSS, and JavaScript. It features clean UI design, smooth animations, and form validation to ensure correct user input.</p>
+                    <div class="tech">
+                        <p>HTML5, CSS3, JAVASCRIPT</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="https://omprakash2k03.github.io/Projects/"><i class='bx  bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="https://github.com/OmPrakash2k03/Projects"><i class='bx  bxl-github'><span>Github Repository</span></i> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>       
+    <!-- custom js -->
+    <script src="script.js"></script>
+</body>
+</html>
